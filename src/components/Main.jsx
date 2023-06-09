@@ -1,5 +1,5 @@
 import React from "react";
-import AllContactsList from "./AllContactsList";
+import AllTrainsList from "./AllContactsList";
 
 const Main = () => {
   return (
@@ -7,7 +7,7 @@ const Main = () => {
       <div className="row my-3">
         <div className="col-2"></div>
         <div className="col-8 border border-info border-2 rounded shadow">
-          <AllContactsList />
+          <AllTrainsList />
         </div>
         <div className="col-2"></div>
       </div>
